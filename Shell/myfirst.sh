@@ -30,11 +30,24 @@ elif [ "$choice" == "no" ]
 then
 echo "Maybe you are tired"
 fi
-echo "Awesome $character you are going to ad!"
-#echo "1: Hunson Abadeer"
-#echo "2: Ice King"
-#echo "3: GOLB"
-#echo "4: Peace Master"
-#read monster
+echo "Awesome $character, where would you like to adventure?"
+echo "1: Nightosphere"
+echo "2: Ice Kingdom"
+echo "3: Fire Kingdom"
+echo "4: Candy Kingdom"
+read location
 
+if [ "$location" == "Nightosphere" ]
+then
+echo "Whatch out for that Hunson Abadeer"
+elif [ "$location" == "Ice Kingdom" ]
+then
+echo "The Ice King is a wacky dude!"
+elif [ "$location" == "Fire Kingdom" ]
+then
+echo "Maybe the Flame Princess will have a rap battle with you"
+elif [ "$location" == "Candy Kingdom" ]
+then
+echo "Everything is candy, but do not eat the candy people"
+fi
 #echo "You $character have chosen to fight $monster on your adventure!"
