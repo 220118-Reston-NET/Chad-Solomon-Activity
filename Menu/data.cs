@@ -22,6 +22,12 @@ namespace DataCollection
                 log.Add(choice);
                 Console.WriteLine(log[1]);
             }
+            else if (!isEmpty)
+            {
+
+                log.Add(choice);
+                Console.WriteLine(log[2]);
+            }
         }
 
         public void removeAdventureLog(string word)
