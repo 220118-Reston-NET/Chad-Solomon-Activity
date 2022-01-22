@@ -37,8 +37,11 @@ namespace DataCollection
 
         public void displayAdventureLog()
         {
+            Console.WriteLine("Adventure Log items===================");
             for (int i = 0; i < log.Count; i++)
+
             {
+                //Console.WriteLine("Adventure Log items");
                 Console.WriteLine(log[i]);
             }
 
